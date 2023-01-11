@@ -1,0 +1,131 @@
+/*Google Fonts: Poppins
+------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Estrutura do site
+------------------------------------*/
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #FCF9BE;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Continue a partir daqui
+------------------------------------*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 171, 120);
+    height: 18vh;
+    width: 100%;
+}
+
+nav{
+    margin-left: 40%;
+}
+
+nav ul a{
+    color: #FCF9BE;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+h3{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.conteudo{
+    margin: 0 20%;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+}
+
+.bolo1{
+    margin-right: 20px;
+}
+
+
+.bolo2{
+    margin-left: 20px   ;
+}
+
+span{
+    font-style: italic;
+}
+
+.btn{
+    background-color: rgb(250, 171, 120);
+    color: #FCF9BE;
+    margin: 15px;
+    padding: 10px;
+    transition: 80ms;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: #FCF9BE;
+    color: rgb(250, 171, 120);
+    border: 2px rgb(250, 171, 120) solid;
+    cursor: pointer;
+}
+
+.sobremim{
+    display: flex;
+    margin: 0 20%;
+}
+
+.loja{
+    display: flex;
+    margin: 0 20%;
+}
+
+.lj1{
+    margin-right: 20px;
+}
+
+.lj2{
+    margin-left: 20px;
+
+}
+
+iframe{
+    width: 400px;
+    height: 350px;
+}
+
+.cadastro{
+    background-color: deeppink;
+    text-align: center;
+    margin: 0 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+input{
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+.sub{
+    background-color: rgb(250, 171, 120);
+
+}
+
+.foot{
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: italic;   
+
+}
